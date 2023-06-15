@@ -28,7 +28,7 @@ const Subtitle = ({ subtitle }: { subtitle: string }) => (
 
 // https://stackoverflow.com/questions/63299092/change-the-colour-of-text-that-overlaps-an-image
 const HeroSlider = () => {
-  const [activeIndex, setActiveIndex] = useState(0);
+  const [activeIndex] = useState(0);
   return (
     <div className="flex items-center bg-monochrome-light w-screen h-screen pl-[15%] pr-[20%]">
       <div className="grid grid-flow-col grid-cols-[80%_auto] place-items-stretch">
